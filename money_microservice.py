@@ -40,6 +40,5 @@ while True:
                     statement += ", "
 
         print(statement)
-        time.sleep(3)
         txt_file = open("money-service.txt", 'w')
         txt_file.write(statement)
