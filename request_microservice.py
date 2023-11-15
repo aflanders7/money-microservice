@@ -23,7 +23,7 @@ def call_microservice(value):
         txt_file = open("money-service.txt", 'w')
         txt_file.write(value)
         txt_file.close()
-        time.sleep(5)
+        time.sleep(3)
         txt_file = open("money-service.txt", 'r')
         content = txt_file.readline()
         print(content)
