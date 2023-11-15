@@ -13,3 +13,4 @@ call_microservice("30")
 Data is received from the microservice via the money-service.txt file. The call_microservice function reads that file and returns the data as a string. It also prints the data to the terminal. Thus, data is received by calling the microservice: data = call_microservice(value).
 
 **UML Sequence Diagram:**
+![UML Sequence Diagram](UML_diagram.png)
