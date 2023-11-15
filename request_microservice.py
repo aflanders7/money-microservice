@@ -17,6 +17,7 @@ def validate_input(input):
 
 def call_microservice(value):
     """Takes a monetary value as a parameter. Calls the microservice and receives data via money-service.txt"""
+    value = str(value)
     if validate_input(value) is True:
         print("valid input")
         txt_file = open("money-service.txt", 'w')
